@@ -33,7 +33,7 @@ class Afosto extends AbstractProvider
      */
     public function getResourceOwnerDetailsUrl(AccessToken $token)
     {
-        return 'https://api.afosto.com/me?access_token=' . $token;
+        return 'https://api.afosto.com/v2/me?access_token=' . $token;
     }
 
     /**
