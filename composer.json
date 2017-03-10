@@ -1,0 +1,30 @@
+{
+  "name": "afosto/oauth-client",
+  "description": "Afosto Client Provider for The PHP League OAuth 2.0 Client",
+  "type": "package",
+  "homepage": "https://afosto.com",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Afosto Team",
+      "homepage": "https://afosto.com"
+    }
+  ],
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "client",
+    "authorization",
+    "authorisation",
+    "afosto"
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "league/oauth2-client": "~1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Afosto\\OauthClient\\Client\\": "src/"
+    }
+  }
+}
